@@ -23,7 +23,7 @@ I am driven by the challenge of understanding complex systems and applying both 
 
 ---
 
-### 🚀 Featured Project
+### 🚀 Featured Projects
 
 #### 🔷 QA Automation Framework - Selenium & Java
 [https://github.com/vinelis/qa-web-ui-java](https://github.com/vinelis/qa-web-ui-java)
@@ -33,6 +33,17 @@ A complete UI test automation framework built from scratch to validate a real es
 The main challenge was to create a **scalable and maintainable architecture** that could support both traditional and BDD testing approaches. I implemented the **Page Object Model (POM)** for clean code separation and integrated **Allure** to generate advanced, detailed reports, including **automatic screenshots on test failure** for rapid debugging. The framework also includes a **Cucumber** layer to write tests in a human-readable format, covering various data scenarios.
 
 * **Tech Stack:** `Java`, `Selenium`, `TestNG`, `Cucumber`, `Maven`, `Allure Report`
+
+---
+
+#### 🔷 QA Automation Framework - Rest Assured & Java
+[https://github.com/vinelis/restful-booker-api-framework](https://github.com/vinelis/restful-booker-api-framework)
+
+A complete API test automation framework built from scratch to validate the `Restful-booker` web service.
+
+The primary challenge was to architect a solution that handles the entire API lifecycle, including **stateful operations requiring authentication**. I implemented a clean architecture using **POJOs** for robust data modeling and created a test suite covering the full **CRUD workflow**. A key feature is the handling of the `/auth` endpoint to dynamically fetch and use tokens for protected endpoints (`PUT`, `DELETE`), including negative path testing to ensure API security.
+
+* **Tech Stack:** `Java`, `Rest Assured`, `TestNG`, `Maven`, `Allure Report`, `JavaFaker`
 
 
 ---
